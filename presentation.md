@@ -15,3 +15,6 @@ print("hello world")
 
 * test
 * test
+
+# image test
+![jobs photo](image/jobs_ibm.jpg)
