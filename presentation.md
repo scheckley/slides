@@ -1,12 +1,19 @@
+# ./slides/presentation.md
 ---
-author: John Doe
-title: Demo Slide
-date: June 21, 2017
+author: stephen
+title: Reveal.js+GitHubPages+Pandoc
+date: today
 ---
-# Foo
+# Reveal rocks
+
+Some code
+
+
 ```python
-print("hello world")
+       print("hello world")
 ```
-# Bar
+
+# Slide 2
+
 * test
 * test
