@@ -1,19 +1,12 @@
-# ./revealHello/presentation.md
 ---
-author: Angelo Basile
-title: Reveal.js+GitHubPages+Pandoc
+author: John Doe
+title: Demo Slide
 date: June 21, 2017
 ---
-# Reveal rocks
-
-Some code
-
-
+# Foo
 ```python
-       print("hello world")
+print("hello world")
 ```
-
-# Slide 2
-
+# Bar
 * test
 * test
