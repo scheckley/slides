@@ -1,7 +1,10 @@
+[comment]: <> (pandoc -t revealjs -s -o index.html presentation.md -V theme=$moon -V revealjs-url=./)
+
+
 ---
-author: John Doe
-title: Demo Slide
-date: June 21, 2017
+author: Stephen Checkley
+title: Journal Club
+date: May, 2018
 ---
 # Foo
 
