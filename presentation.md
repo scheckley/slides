@@ -104,4 +104,15 @@ _Prediction of cell viability and genetic interaction phenotypes._
 <img src="image/fig3a.png" alt="fig3a" style="width: 800px;"/>
 
 * 243 subsystems incorporating _PMT1_ and _IRE1_ in GO hierarchy.
-* Genes associated with endoplasmic reticulum protein unfolding response & cell wall organisation and integrity.
+* Genes associated with endoplasmic reticulum protein unfolding response (ER-UPR) & cell wall organisation and integrity.
+* Validated using GFP:_Hac1_ construct - a transcriptional activator of ER-UPR.
+    * Correlation of predicted ER-UPR down-regulation with _Hac1_ activity across all relevent gene disruptions \(b\).
+* Correlation of all states of every subsystem in DCell shows only ER-UPR systems \(d\).
+
+# DNA damage and repair systems
+
+<img src="image/fig3b.png" alt="fig3b" style="width: 800px;"/>
+
+* Repeated the validation using the DNA repair subsystem which has been studied over many double gene deletions.
+* _rev7_ and _rad57_ deletions in the model correlate with DNA repair subsystems \(a\).
+* Impacted model subsystems correlate with DNA repair systems \(d\).
