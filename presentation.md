@@ -13,8 +13,19 @@ Ma J. _et al_ (2018) Nature methods. **290**:15
 # Introduction
 
 * Neural networks are powerful classifiers but their internal structures are hard to interpret.
-* Life sciences is a field that requires knowledge of structure as well as function.
-* "Visible neural networks" enable relation of the model structure with biological function.
+
+* densely entangled network structures that are neither tied to an actual physical system nor based on human reasoning.
+
+* Powerful but not useful where simulation is needed of system function _and_ system structure.
+
+    * Applications in biology and medicine seek to model both functional outcome _and_ mechanism.
+
+* "Visible neural networks" (VNN) enable relation of a neural network structure to biological function.
+
+# DCell
+
+* 2,526 biological "systems"
+    * 
 
 # image test
 ![jobs photo](image/jobs_ibm.jpg)
