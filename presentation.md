@@ -3,8 +3,8 @@
 
 ---
 author: Stephen Checkley
-title: Journal Club
-date: May, 2018
+title: Using deep learning to model the hierarchical structure and function of a cell.
+date: Journal Club - May, 2018
 ---
 # Foo
 
