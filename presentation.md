@@ -24,8 +24,17 @@ Ma J. _et al_ (2018) Nature methods. **290**:15
 
 # DCell
 
-* 2,526 biological "systems"
-    * 
+* 2,526 literature curated biological systems.
+    * _Saccharomyces cerevisiae_
 
-# image test
-![jobs photo](image/jobs_ibm.jpg)
+* CliXo 4,805 biological systems using clustering from gene-gene interaction datasets.
+    * 38% overlap with GO
+
+* 8 million training genotype-phenotype examples.
+
+# Model training
+
+<img src="image/fig1a.png" alt="fig1a" style="width: 600px;"/>
+
+* input-output translation of the model.
+
