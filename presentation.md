@@ -116,3 +116,6 @@ _Prediction of cell viability and genetic interaction phenotypes._
 * Repeated the validation using the DNA repair subsystem which has been studied over many double gene deletions.
 * _rev7_ and _rad57_ deletions in the model correlate with DNA repair subsystems \(a\).
 * Impacted model subsystems correlate with DNA repair systems \(d\).
+
+# Discovery of new subsystems
+
