@@ -119,3 +119,33 @@ _Prediction of cell viability and genetic interaction phenotypes._
 
 # Discovery of new subsystems
 
+* Using DCell with the CliXO dataset (non-curated large-scale molecular data sets).
+    * protein-protein binding, gene coexpression, gene coevolution, genetic linkage, etc.
+    * Detecting nested communities within these large scale gene-interaction networks.
+* Some correspond with curated biological systems, some don't.
+    * 236 undocumented subsystems.
+* CliXO:10651 found to be important in growth prediction.
+    * Found from the elevated density of protein-protein interactions observed among 154 genes.
+* CliXO:10651 is interconnected with 2 subsystems:
+    1. actin filaments.
+    2. ion homeostasis.
+
+# CliXO:10651
+<img src="image/fig5d.png" alt="fig5d" style="width: 600px;"/>
+
+# Discovery of new subsystems
+
+<img src="image/fig6.png" alt="fig5d" style="width: 450px;"/>
+
+* CliXO:10582 - a novel subsystem comprising 71 genes.
+* A previously unknown grouping, containing 8 new genes.
+* Interconnects 3 known subsystems: postreplication, mismatch, & nonrecombinational repair.
+
+# Conclusion
+* DCell captures nearly all phenotypic variation in cell growth from a vast collection of data. 
+    * Simultaneously simulate cellular hierarchy structure _and_ function.
+    * Identification of new subsystems.
+
+* The approach combines statistical genetics and systems biology.
+
+* A generalizable method that can be used create interpretable neural networks encoding function _and_ form.
