@@ -3,10 +3,11 @@
 
 ---
 author: Stephen Checkley
-title: Using deep learning to model the hierarchical structure and function of a cell.
-date: Journal Club - May, 2018
+title: Journal Club
+date: May, 2018
 ---
-# Foo
+using deep learning to model the hierarchical structure and function of a cell
+_Ma J. et al (2018)_
 
 ```python
 print("hello world")
