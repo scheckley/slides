@@ -6,7 +6,7 @@ author: Stephen Checkley
 title: Journal Club
 date: May, 2018
 ---
-**Using deep learning to model the hierarchical structure and function of a cell.**
+> **Using deep learning to model the hierarchical structure and function of a cell.**
 
 Ma J. _et al_ (2018) Nature methods. **290**:15
 
@@ -37,4 +37,56 @@ Ma J. _et al_ (2018) Nature methods. **290**:15
 <img src="image/fig1a.png" alt="fig1a" style="width: 600px;"/>
 
 * input-output translation of the model.
+* perturbation of genes propagate through the hierarchy of protein complexes, biological processes, organelles and ultimately the growth phenotype.
+* Neural network is embedded into the biological hierarchy (20-1,075 neurons).
+    * functional state is represented a bank of neurons.
+    * connectivity of which mirrors the biological hierarchy.
 
+# Neural network structure
+
+<img src="image/fig1a.png" alt="fig1a" style="width: 600px;"/>
+
+* The VNN encoding the GO network = 97,181 neurons.
+* CliXo network = 22,167 neurons.
+* Depth for both = 12 layers.
+
+# Performance in genotype-phenotype translation
+
+* Extensive compendium of yeast growth phenotypes measured.
+    * single & double gene-deletion genotypes
+    * several million genotype-phenotype training examples
+* 2 Phenotypes considered:
+    1. capacity for growth measured by colony size vs wild type.
+    2. for double gene deletions, genetic interaction scores measured using difference in colony size from that of single gene deletions.
+* Predicting gene interactions is hard vs. absolute growth:
+    * many non-linear effects.
+    * weights of inputs to neurons was optimised using stochastic gradient descent computed by back propogation.
+
+# Example model output
+
+<img src="image/fig1d.png" alt="fig1d" style="width: 800px;"/>
+
+_[http://d-cell.ucsd.edu/](http://d-cell.ucsd.edu/)_
+
+# Results
+
+<img src="image/fig2a.png" alt="fig2a" style="width: 600px;"/>
+
+_Prediction of cell viability and genetic interaction phenotypes._
+
+\(a\) Measured vs. predicted cell viability relative to wild type (wt=1.0).
+
+\(b\) Measured vs. predicted genetic interaction scores for each double-gene-disruption genotype.
+
+# Benchmarking
+
+<img src="image/fig2d.png" alt="fig2d" style="width: 450px;"/>
+
+* Comparison of VNN to other modelling approaches, random assign of genes to subsystems ('matched'), and a fully connected neural network model.
+* Performance of the fully connected network is about the same, but loses all the biology.
+* Matched "black box" network performs poorly without increase in number of neurons.
+* The biological hierarchy provides important information not found in randomized networks.
+
+# From prediction to mechanism
+
+* Unlike regular neural networks, the DCell simulations can be used to query an extensive hierarchy of states of the biological subsystems.
