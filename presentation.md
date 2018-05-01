@@ -90,3 +90,18 @@ _Prediction of cell viability and genetic interaction phenotypes._
 # From prediction to mechanism
 
 * Unlike regular neural networks, the DCell simulations can be used to query an extensive hierarchy of states of the biological subsystems.
+
+* This enables _in silico_ studies of biological mechanism.
+
+* 4 studies used to validate the model.
+
+# Simulate effect of genotype change on all subsystems
+
+* subsytems with substantial changes would be candidate mechanisms in translation of genotype to phenotype.
+
+# _PMT1_ and _IRE1_ deletion
+
+<img src="image/fig3a.png" alt="fig3a" style="width: 800px;"/>
+
+* 243 subsystems incorporating _PMT1_ and _IRE1_ in GO hierarchy.
+* Genes associated with endoplasmic reticulum protein unfolding response & cell wall organisation and integrity.
