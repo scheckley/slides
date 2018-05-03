@@ -117,7 +117,6 @@ _Prediction of cell viability and genetic interaction phenotypes._
 * _rev7_ and _rad57_ deletions in the model correlate with DNA repair subsystems \(a\).
 * Correlation of all states of every system shows highest correlate with DNA repair systems \(d\).
 
-
 # Systems to Phenotype
 
 <img src="image/fig4.png" alt="fig1a" style="width: 600px;"/>
