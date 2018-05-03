@@ -82,7 +82,7 @@ _Prediction of cell viability and genetic interaction phenotypes._
 
 <img src="image/fig2d.png" alt="fig2d" style="width: 450px;"/>
 
-* Comparison of VNN to other modelling approaches, random assign of genes to subsystems ('matched'), and a fully connected neural network model.
+* Comparison of VNN to other modelling approaches, random assignment of genes to subsystems ('matched'), and a fully connected neural network model.
 * Performance of the fully connected network is about the same, but loses all the biology.
 * Matched "black box" network performs poorly without increase in number of neurons.
 * The biological hierarchy provides important information not found in randomized networks.
