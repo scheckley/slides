@@ -119,7 +119,7 @@ _Prediction of cell viability and genetic interaction phenotypes._
 
 # Systems to Phenotype
 
-<img src="image/fig4.png" alt="fig4" style="width: 600px;"/>
+<img src="image/fig4.png" alt="fig4" style="width: 550px;"/>
 
 * Do complex phenotypes e.g, growth depend on many subsystems or are they dominated by a few?
 * Pareto (Power Law) distribution.
