@@ -117,6 +117,17 @@ _Prediction of cell viability and genetic interaction phenotypes._
 * _rev7_ and _rad57_ deletions in the model correlate with DNA repair subsystems \(a\).
 * Correlation of all states of every system shows highest correlate with DNA repair systems \(d\).
 
+
+# Systems to Phenotype
+
+<img src="image/fig4.png" alt="fig1a" style="width: 600px;"/>
+
+* Do complex phenotypes e.g, growth depend on many subsystems or are they dominated by a few?
+* Pareto (Power Law) distribution.
+* 80% of the author's cummulative importance measure = 21% of subsystems.
+* Most significant system in GO was "negative regulation of cellcular macromolecule biosynthesis".
+    * organisation of cellular circuits that inhibit biosynthesis - strong increase in growth when inhibited.
+
 # Discovery of new subsystems
 
 * Using DCell with the CliXO dataset (non-curated large-scale molecular data sets).
